@@ -20,6 +20,7 @@ else:
     print("Liczba jest parzyst")
 
 """
+"""
 key = 6999
 
 x = int(input())
@@ -28,3 +29,12 @@ if key == x:
     print("Brawo")
 else:
     print("bad")
+
+
+"""
+
+
+x = int(input("Do ilu ma policzyć: "))
+
+for i in range(0, x+1):
+    print(i)
