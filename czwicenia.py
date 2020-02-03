@@ -43,6 +43,22 @@ for i in range(0, x+1):
 
 x = 0
 
-while x >= 5:
+while x <= 5:
     print(x)
     x+=1
+
+
+
+szukana_liczba = 40
+x = 0
+print("Zgadnij liczbę \nLiczba jest z zakresu 0 - 100")
+while x != szukana_liczba:
+    
+    x = int(input("Podaj liczbę: "))
+    if x == szukana_liczba:
+        print("Gratulacje Zgadłeś.")
+        break
+    elif x > szukana_liczba:
+        print("Za dużo")
+    elif x < szukana_liczba:
+        print("Za mało")
