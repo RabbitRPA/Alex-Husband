@@ -32,9 +32,17 @@ else:
 
 
 """
-
+"""
 
 x = int(input("Do ilu ma policzyć: "))
 
 for i in range(0, x+1):
     print(i)
+
+"""
+
+x = 0
+
+while x >= 5:
+    print(x)
+    x+=1
