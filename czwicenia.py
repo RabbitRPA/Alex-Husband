@@ -12,4 +12,9 @@ print(type(p))
 """
 
 x = int(input("Wprowadż liczbę: "))
-y = int(input("Wprowadż liczbę: "))
+
+
+if x % 2 == 0:
+    print("Liczba parzysta")
+else:
+    print("Liczba jest parzyst")
