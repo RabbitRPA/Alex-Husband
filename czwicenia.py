@@ -40,7 +40,7 @@ for i in range(0, x+1):
     print(i)
 
 """
-
+"""
 x = 0
 
 while x <= 5:
@@ -62,3 +62,15 @@ while x != szukana_liczba:
         print("Za dużo")
     elif x < szukana_liczba:
         print("Za mało")
+
+
+"""
+
+
+liczba = int(input("Wprowadż do ilu mam zsumować liczby: "))
+suma = 0
+
+
+for i in range(1, liczba+1):
+    suma += i
+print(suma)
