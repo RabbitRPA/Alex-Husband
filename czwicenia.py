@@ -72,5 +72,6 @@ suma = 0
 
 
 for i in range(1, liczba+1):
-    suma += i
+    if i % 2 == 0:
+        suma += i
 print(suma)
